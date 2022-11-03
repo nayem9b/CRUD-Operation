@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongodb": "^4.11.0"
@@ -7,8 +8,8 @@
   "name": "serverside",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
